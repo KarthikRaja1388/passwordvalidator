@@ -8,7 +8,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: aqua;
 }
 main {
   width: 300px;
@@ -23,6 +22,7 @@ input {
   outline: none;
   border: none;
   padding: 0.2rem;
+  box-shadow: 0 0 10px #c3c3c3;
 }
 .btn {
   display: inline-block;
@@ -33,4 +33,10 @@ input {
   border-radius: 0.5rem;
   text-align: center;
   color: black;
+}
+.mismatch {
+  border: 1px solid red;
+}
+.match {
+  border: 1px solid green;
 }
